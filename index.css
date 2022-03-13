@@ -1,0 +1,49 @@
+@media (max-width: 767px) {
+    label {
+      text-align: left;
+    }
+  }
+
+  @media (min-width: 768px) {
+    label {
+      text-align: center;
+    }
+  }
+
+.iniatialStyle{
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+}
+.placeStyle {
+  padding-top: 60px;
+}
+.container {
+    text-align: center;
+    justify-content: center;
+  }
+  
+.textStyle {
+    color: black;
+    font-size: 1.2em;
+}
+#profile {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .card:hover {
+    transform: scale(1.1); 
+  }  
+  form {
+      max-width: 800px;
+  }
+  .resume {
+    display: inline-block;
+    margin-left: 15%;
+    transform: translateX(-15%);
+  }
+
+    
+    
